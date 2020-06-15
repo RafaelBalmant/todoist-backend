@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "start": "PORT=8080 nodemon src/index.js"
+    "start-develop": "nodemon src/index.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
